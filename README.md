@@ -1,2 +1,0 @@
-# PShell
-Power Shell Commands
