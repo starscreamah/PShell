@@ -1,0 +1,5 @@
+Primary Mailbox
+New-MailboxExportRequest -Mailbox "Valeria Barrios" -FilePath \\SERVER01\PSTFiles\Vbarrios.pst
+
+Online Archive
+New-MailboxExportRequest -Mailbox "kreiter" -FilePath "\\SERVER01\PSTFiles\Kathleen Reiter.pst" -IsArchive
