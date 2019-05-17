@@ -1,0 +1,5 @@
+Exchange Mail Forwarding
+Set-Mailbox -Identity "Ken Sanchez" -ForwardingSMTPAddress "pilarp@contoso.com"
+
+Exchange Mail Delivery and Forwarding
+Set-Mailbox -Identity "Douglas Kohn" -DeliverToMailboxAndForward $true -ForwardingSMTPAddress "douglaskohn.parents@fineartschool.net"
