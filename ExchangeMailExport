@@ -3,3 +3,6 @@ New-MailboxExportRequest -Mailbox "Valeria Barrios" -FilePath \\SERVER01\PSTFile
 
 Online Archive
 New-MailboxExportRequest -Mailbox "kreiter" -FilePath "\\SERVER01\PSTFiles\Kathleen Reiter.pst" -IsArchive
+
+Export Progress
+Get-MailboxExportRequest -MailBox "kreiter"
